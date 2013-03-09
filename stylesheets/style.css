@@ -1,0 +1,12 @@
+/*
+* Copyright 2013, Ayman Farhat
+* http://aymanfarhat.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 3/9/2013
+  Custom Styles 
+*/
+ul.social{float:right;margin-top:10px;}
+ul.social li{display:inline;}
+ul.social li a{font-size:28px;color:#181818;}
+ul.social li a:hover{color:#ccc;}
