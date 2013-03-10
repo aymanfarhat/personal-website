@@ -12,7 +12,7 @@ function showGitRepos(username,type,sort,direction)
 		success:function(result)
 		{
 			$.each(result,function(){
-				$('.gitrepos').append("<li><a href='"+this.clone_url+"' target='_null'>"+this.name+"</a>"+ this.description+"</li>");
+				$('.gitrepos').append("<li><a href='"+this.clone_url+"' target='_null'>"+this.name+"</a> "+ this.description+"</li>");
 			});
 		}
 	});
