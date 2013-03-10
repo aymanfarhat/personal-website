@@ -11,8 +11,9 @@ function showGitRepos(username,type,sort,direction)
 		dataType:"json",
 		success:function(result)
 		{
+			$('.gitrepos .loader').css('display','none');
 			$.each(result,function(){
-				$('.gitrepos').append("<li><a href='"+this.clone_url+"' target='_null'>"+this.name+"</a> "+ this.description+"</li>");
+				$('.gitrepos ul').append("<li><a href='"+this.clone_url+"' target='_null'>"+this.name+"</a> "+ this.description+"</li>");
 			});
 		}
 	});
@@ -28,8 +29,9 @@ function showBlogPosts()
 		{
 			if(data.responseData.feed && data.responseData.feed.entries)
 			{
+				$('.blogposts .loader').css('display','none');
 				$.each(data.responseData.feed.entries,function(i,post){
-					$('.blogposts').append("<li><a href='"+post.link+"' target='_null'>"+post.title+"</a></li>");
+					$('.blogposts ul').append("<li><a href='"+post.link+"' target='_null'>"+post.title+"</a></li>");
 				});
 			}
 		}

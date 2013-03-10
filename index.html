@@ -23,7 +23,6 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<script src="js/main.js" type="text/javascript"></script>
 </head>
 <body>
 	<div class="container">
@@ -42,7 +41,10 @@
 		<div class="one-third column">
 			<h3><span class="icon-pencil"></span> Blog</h3>
 			<p>I blog everything related to programming</p>
-			<ul class="blogposts square"></ul>
+			<div class="blogposts">
+				<div class="loader"><span class="icon-spinner icon-spin"></span></div>
+				<ul class="square"></ul>
+			</div>
 		</div>
 		<div class="one-third column">
 			<h3><span class="icon-briefcase"></span> Projects</h3>
@@ -61,12 +63,16 @@
 		<div class="one-third column">
 			<h3><span class="icon-github-alt"></span> GitHub</h3>
 			<p>I enjoy sharing code and collaboration</p>
-			<ul class="gitrepos square"></ul>
+			<div class="gitrepos">
+				<div class="loader"><span class="icon-spinner icon-spin"></span></div>
+				<ul class="square"></ul>
+			</div>
 		</div>
 		<div class="footer">
 			<hr />
 			&copy; 2013 Ayman Farhat, built on top of <a href="http://www.getskeleton.com/">Skeleton</a>
 		</div>
 	</div>
+	<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
