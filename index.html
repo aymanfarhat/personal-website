@@ -27,7 +27,6 @@
 		if(typeof jQuery == 'undefined')
 			document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
 	</script>
-	<script src="js/main.js" type="text/javascript"></script>
 </head>
 <body>
 	<div class="container">
@@ -46,40 +45,38 @@
 		<div class="one-third column">
 			<h3><span class="icon-pencil"></span> Blog</h3>
 			<p>I blog everything related to programming</p>
-			<ul class="square">
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-			</ul>
+			<div class="blogposts">
+				<div class="loader"><span class="icon-spinner icon-spin"></span></div>
+				<ul class="square"></ul>
+			</div>
 		</div>
 		<div class="one-third column">
 			<h3><span class="icon-briefcase"></span> Projects</h3>
 			<p>Some projects I have worked on</p>
 			<ul class="square">
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
+				<li><a href="http://timewareinc.com" target="_blank">Timewareinc.com</a> Website + CMS built with Php Code Igniter</li>
+				<li><a href="http://times2ads.com" target="_blank">Times2ads.com</a> Website built with Php Code Igniter
+				</li>
+				<li><a href="http://techtodayshow.com" target="_blank">Techtodayshow.com</a> Custom Worpress theme built with Php.</li>
+				<li><a href="http://thecodeship.com" target="_blank">Thecodeship.com</a> Personal blog built with Python's Django</li>
+				<li><a href="#">Simple HR</a> HR software for small businesses built with C#.net, Winforms and Sqlite</li>
+				<li><a href="http://leblood.aymanfarhat.com" target="_blank">Leblood.org</a> Web app for blood donation system built with Php/MySql with custom framework</li>
+				<li><a href="http://www.windowsphone.com/en-us/store/app/akalna/41a0fc81-ee8e-4335-a149-4b299b21204b" target="_blank">Akalna</a> Windows Phone app for locating eateries and their numbers around Lebanon</li>
 			</ul>
 		</div>
 		<div class="one-third column">
 			<h3><span class="icon-github-alt"></span> GitHub</h3>
 			<p>I enjoy sharing code and collaboration</p>
-			<ul class="square">
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor feugiat consequat.</li>
-			</ul>
+			<div class="gitrepos">
+				<div class="loader"><span class="icon-spinner icon-spin"></span></div>
+				<ul class="square"></ul>
+			</div>
 		</div>
 		<div class="footer">
 			<hr />
 			&copy; 2013 Ayman Farhat, built on top of <a href="http://www.getskeleton.com/">Skeleton</a>
 		</div>
 	</div>
+	<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
