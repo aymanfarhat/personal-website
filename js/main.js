@@ -22,7 +22,7 @@ function showGitRepos(username,type,sort,direction)
 function showBlogPosts()
 {
 	$.ajax({
-		url:document.location.protocol+"//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q="+encodeURIComponent("http://thecodeship.com/latest/feed/"),
+		url:document.location.protocol+"//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q="+encodeURIComponent("http://thecodeship.com/feed/latest"),
 		dataType:"GET",
 		dataType:"json",
 		success:function(data)
