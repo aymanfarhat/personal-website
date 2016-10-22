@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "0.0.0",
+  "homepage": "http://aymanfarhat.com",
+  "authors": [
+    "Ayman <ayman.farhat1@gmail.com>"
+  ],
+  "description": "Personal website for Ayman Farhat",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.1",
+    "skeleton": "~2.0.4"
+  }
+}
