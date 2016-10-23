@@ -10,9 +10,9 @@
 	<meta name="author" content="Ayman Farhat">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="lib/skeleton/css/normalize.css">
-	<link rel="stylesheet" href="lib/skeleton/css/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='lib/skeleton/css/normalize.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='lib/skeleton/css/skeleton.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/base.css') }}">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -20,10 +20,10 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="public/images/favicon.ico">
+	<link rel="apple-touch-icon" href="public/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="public/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="public/images/apple-touch-icon-114x114.png">
 </head>
 <body>
         <nav class="navbar">
@@ -41,7 +41,7 @@
                     <div class="four columns profile-container">
                         <div class="u-pull-right">
                             <div class="u-pull-left profile-pic">
-                                <img src="images/ayman.jpg" />
+                                <img src="{{ url_for('static', filename='images/ayman.jpg') }}" />
                             </div>
                             <div class="u-pull-left profile-text">
                                 <strong>Ayman Farhat</strong>
