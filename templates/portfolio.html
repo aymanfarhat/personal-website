@@ -1,5 +1,31 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h3>FOliooooo</h3>
+<h2>Portfolio</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus nunc a turpis bibendum egestas. Ut eget massa dui. Pellentesque vestibulum elementum arcu, eu elementum nisi cursus id. Vivamus interdum condimentum lacus, vel consequat nisi accumsan sed. Aliquam fermentum ante vel nisi venenatis elementum. Quisque blandit tortor at sollicitudin laoreet. Ut placerat sit amet augue id convallis. Sed enim mi, consequat vitae convallis vitae, sagittis in orci. Donec vel efficitur neque. Morbi eu consectetur nisi. Quisque lorem lorem, scelerisque vel varius suscipit, congue in tortor. Curabitur eu leo vitae lacus laoreet imperdiet vel sed justo. Cras tortor tortor, consectetur ut tortor non, iaculis varius leo. Suspendisse ultrices a dolor id elementum.</p>
+
+<ul>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Code</a></li>
+</ul>
+
+<p>Here are some of the products I worked on.</p>
+<p>Here is all the code I share on GitHub. It's mainly side projects and experiments, hope you enjoy browsing it!</p>
+
+<section>
+<div class="row">
+    <div class="seven columns">
+        <h3>Wamda CMS</h3>
+        <h4>Short title description</h4>
+        <h5><strong>My role </strong> Lead developer</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus nunc a turpis bibendum egestas. Ut eget massa dui. Pellentesque vestibulum elementum arcu, eu elementum nisi cursus id. Vivamus interdum condimentum lacus, vel consequat nisi accumsan sed. Aliquam fermentum ante vel nisi venenatis elementum. Quisque blandit tortor at sollicitudin laoreet. Ut placerat sit amet augue id convallis. Sed enim mi, consequat vitae convallis vitae, sagittis in orci</p>
+        <h5><strong>Technologies </strong> PHP, MySQL, Elastic Search, Laravel 5, Redis, Varnish</h5>
+    </div>
+    <div class="five columns">
+        <img src="{{ url_for('static', filename='images/wamda-cms.png') }}" style="width:100%" />
+    </div>
+</div>
+</section>
+<hr>
+
 {% endblock %}
