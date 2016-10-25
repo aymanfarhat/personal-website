@@ -34,5 +34,38 @@ def portfolio():
 
     return render_template('portfolio.html', view_data = data)
 
+
+@app.route('/writing')
+def writing():
+    data = {
+        'nav_list': get_nav_bar(),
+        'active_page': 'writing'
+    }
+
+    return render_template('writing.html', view_data = data)
+
+
+@app.route('/talks')
+def talks():
+    data = {
+        'nav_list': get_nav_bar(),
+        'active_page': 'talks'
+    }
+
+    return render_template('talks.html', view_data = data)
+
+
+
+@app.route('/bookmarks')
+def bookmarks():
+    data = {
+        'nav_list': get_nav_bar(),
+        'active_page': 'bookmarks'
+    }
+
+    return render_template('bookmarks.html', view_data = data)
+
+
+
 if __name__ == "__main__":
     app.run()
