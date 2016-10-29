@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Wamda CMS",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Wamda.com",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Nuwait",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Wamda Community",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Coentrepreneurship",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Insights Engine",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Blobs Game Score API",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Jumbit JS13K Games",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "The Code Ship",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Redditmon",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Timeware Inc",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Leblood",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    },
+    {
+        "title": "Tech Today Show",
+        "short_description": "short description",
+        "role": "Lead Dev",
+        "description": "this is an awesome product",
+        "technologies": "PHP, MySQL",
+        "image": "/content_imgs/wamda-cms.png"
+    }
+]

@@ -1,3 +1,4 @@
+import json
 from flask import Flask
 from flask import render_template
 
@@ -29,8 +30,12 @@ def about():
 def portfolio():
     data = {
         'nav_list': get_nav_bar(),
-        'active_page': 'portfolio'
+        'active_page': 'portfolio',
+        'products': []
     }
+
+    with open('data/products.json') as data_file:    
+        data['products'] = json.load(data_file)
 
     return render_template('portfolio.html', view_data = data)
 
