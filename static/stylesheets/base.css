@@ -142,6 +142,10 @@ li p { line-height: 21px; }
     padding-top: 8px;
 }
 
+.social-links-bar {
+    text-align:center; font-size: 2em; letter-spacing: 5px;
+}
+
 /* #Media Queries
 ================================================== */
 
