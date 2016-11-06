@@ -3,3 +3,4 @@ dist
 .tmp
 .sass-cache
 static/lib
+static/stylesheets/css/
